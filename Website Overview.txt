@@ -1,0 +1,35 @@
+# 📊 Power BI Dashboard - Internet Sales Dashboard
+
+🚀 **Live Dashboard:** [Click Here to View](https://gsrinagacharan123.wordpress.com/data-analyst-project-sales-management/)
+
+This Power BI report allows interactive analysis of internet sales data with the ability to filter by products, clients, and salespeople.
+
+## Features:
+✔️ **Live Data Insights** – View real-time sales performance.  
+✔️ **Filters** – Drill down by salesperson, product, and customer.  
+✔️ **Budget Comparison** – Track sales against targets.  
+
+
+Overview:
+🌐 Website Overview – Internet Sales Dashboard Project
+The website showcases a comprehensive sales analytics project, transitioning from static reports to an interactive Power BI dashboard. It provides insights into product sales, customer trends, and performance against budget, leveraging SQL, Power BI, and structured data modeling.
+
+📂 Website Contents
+1️⃣ SQL Code Implementation
+
+Contains SQL queries used for data extraction, transformation, and loading (ETL).
+Includes queries for sales aggregation, customer segmentation, and performance comparison.
+2️⃣ Power BI Dashboard (Interactive Visuals)
+
+Published interactive Power BI dashboard for real-time sales insights.
+Provides filtering by products, customers, salespersons, and time periods.
+Displays key KPIs like Total Sales, Sales by Product, Customer Trends, and Budget vs. Actual Performance.
+3️⃣ Data Model (Star Schema)
+
+Shows a visual representation of the relational data model.
+Explains table relationships (Calendar, Customer, Product, Internet Sales).
+Demonstrates how data flows for analysis and reporting.
+4️⃣ Product Excel File (Sample Data)
+
+Contains a snapshot of the product dataset.
+Displays product categories, descriptions, and attributes used in the dashboard.

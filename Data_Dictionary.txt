@@ -1,0 +1,29 @@
+Data Model Theory – Internet Sales Analysis
+This project follows a star schema data model with a central fact table (InternetSales) connected to multiple dimension tables (Calendar, Customer, Product).
+
+1️⃣ Calendar Table (Calendar)
+Provides date-related attributes (Year, Month, Quarter, etc.).
+Helps analyze sales trends over time.
+Links to InternetSales via OrderDateKey, DueDateKey, and ShipDateKey.
+
+2️⃣ Customer Table (Customer)
+Stores customer details like Name, Gender, City, and First Purchase Date.
+Allows customer segmentation analysis.
+Connects to InternetSales via CustomerKey.
+
+3️⃣ Internet Sales Table (InternetSales) (Fact Table)
+Contains sales transaction data (Sales Amount, Order Dates, Customers, and Products).
+Serves as the central table connecting all other tables.
+Links to Product, Customer, and Calendar tables.
+
+4️⃣ Product Table (Product)
+Holds product details like Name, Category, Size, and Color.
+Helps analyze sales by product categories.
+Joins InternetSales via ProductKey.
+
+
+📌 Relationships Summary
+Calendar joins InternetSales on date keys.
+Customer joins InternetSales via CustomerKey.
+Product joins InternetSales via ProductKey.
+This model enables filtering, drill-down analysis, and KPI tracking, making sales insights more actionable. 🚀
